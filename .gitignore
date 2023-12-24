@@ -1,0 +1,6 @@
+# Files
+*.pyc
+assets/out.png
+**/venv/
+**.png
+**/weight/
