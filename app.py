@@ -52,7 +52,7 @@ def draw_partition_line():
 
 def display_options_screen():
     font = pygame.font.Font(None, 36)
-    options = ["Simple NN + Sigmoid", "Simple NN + Softmax", "CNN","KNN"]
+    options = ["CNN", "Simple NN","KNN"]
     button_height = 50
     buttons = []
 
@@ -88,7 +88,7 @@ selected_option = None
 try:
     # Display options screen only once
     font = pygame.font.Font(None, 36)
-    options = ["Simple NN + Sigmoid", "Simple NN + Softmax", "CNN","KNN"]
+    options = ["CNN", "Simple NN","KNN"]
     button_height = 50
     buttons = []
 
